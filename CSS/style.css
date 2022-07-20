@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange-color: rgb(255, 164, 13);
+}
+
+.gray-layer{
+    opacity: .5;
+}
+
+.logo{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* **************************** */
+
+.body-section{
+    height: calc(100vh - 170px);
+    display: flex;
+}
+
+/* LEFT-SECTION */
+
+.left-section{
+    padding-right: 300px;
+}
+
+.left-section p{
+    font-size: 17px;
+}
+
+.watch-overview{
+    display: flex;
+    align-items: center;
+}
+
+.play-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.watch-overview span{
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* RIGHT-SECTION */
+
+.contact-form{
+    width: 350px;
+}
+
+.contact-form h4{
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact-form p{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form label,input:not(input:last-child){
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+form input{
+    height: 40px;
+    border: solid 1px #5c5c5c80;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+form input:last-child{
+    width: 100%;
+    background-color: var(--orange-color);
+    border: none;
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* **************************** */
+
+.footer-section{
+    height: 120px;
+    display: flex;
+}
+
+.item{
+    display: flex;
+}
+
+.item h4{
+    width: 220px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.item p{
+    width: 220px;
+    padding-left: 10px;
+    line-height: 120%;
+}
+
+.item:not(.item:first-child){
+    margin-left: 120px;
+}
+
+.items-description p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* POP-UP */
+
+.pop-Up{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.xmark{
+    color: white;
+    top: -20px;
+    right: -40px;
+    cursor: pointer;
+}
+
+.video-container{
+    width: 770px;
+    height: 440px;
+}
